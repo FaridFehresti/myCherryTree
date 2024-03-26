@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="8" master_id="0" name="organ pannel" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1710600076" ts_lastsave="1710600243">
+    <rich_text scale="h1">Create and Show Organ in Panel:</rich_text>
+    <rich_text>
+	based on the meetings we had this module is going to be changed later but for now we need to do couple of things to bring it alive inside the pannel these includes the following list of tasks:
+      ▪ organ card inside the dashboard
+      ▪ config organ and organ user types 
+      ▪ get organ apis from backend and configure operation service 
+      		</rich_text>
+  </node>
+</cherrytree>

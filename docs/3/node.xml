@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="3" master_id="0" name="announcement" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1710597712" ts_lastsave="1710601076">
+    <rich_text scale="h1" foreground="#c0c01c1c2828">Announcement:</rich_text>
+    <rich_text>
+	description:
+		according to mehdi there are some changes inside the fields of the announcement in data base 	that needs to be applied inside the the announcement form of the pannel .after applying these changes the api will return an announcement with new properties that are included in the sub node of this cherry </rich_text>
+    <rich_text link="node 6" foreground="#a5a51d1d2d2d">Models</rich_text>
+    <rich_text>
+	steps:
+               1) apply the</rich_text>
+    <rich_text foreground="#5757e3e38989"> new field changes</rich_text>
+    <rich_text> on announcement operations service
+               2) API Calls on the </rich_text>
+    <rich_text foreground="#5757e3e38989">pannel config</rich_text>
+    <rich_text> 
+               3) map and filter based on </rich_text>
+    <rich_text foreground="#5757e3e38989">Pop over or banner</rich_text>
+    <rich_text> types of announcement	and </rich_text>
+    <rich_text foreground="#5757e3e38989">add ui</rich_text>
+    <rich_text>
+   </rich_text>
+    <rich_text justification="left"></rich_text>
+    <codebox char_offset="574" justification="left" frame_width="500" frame_height="100" width_in_pixels="1" syntax_highlighting="python3" highlight_brackets="1" show_line_numbers="0"></codebox>
+  </node>
+</cherrytree>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="1" master_id="0" name="academic-course" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1710597054" ts_lastsave="1711456201">
+    <rich_text>
+</rich_text>
+    <rich_text scale="h1">1. academic Course </rich_text>
+    <rich_text scale="h1" foreground="#c0c01c1c2828">Certificate</rich_text>
+    <rich_text scale="h1"> :</rich_text>
+    <rich_text>
+   accademic course certificate is going to be added to the list of the academic-course list under		table row of the tools, certificate is going to have its own page with routing , and </rich_text>
+    <rich_text foreground="#6262a0a0eaea">query param of id </rich_text>
+    <rich_text>of 			the school_book, this page is going to call </rich_text>
+    <rich_text foreground="#6262a0a0eaea">preInitialDataAPI</rich_text>
+    <rich_text> that includes the following data :{
+			</rich_text>
+    <rich_text foreground="#e0e01b1b2424">anouncement_list,
+			video_contents(list),
+			course_material(list),
+			homework_list ,
+			exam_lis,
+			quiz_list,
+			certificate-img,</rich_text>
+    <rich_text>
+		}
+		steps :
+		   </rich_text>
+    <rich_text foreground="#2626a2a26969">1) initialPreData()
+		   2) initialForm()
+		   3) submitForm()
+		   4) editMethod()
+		   5) deleteMethod()</rich_text>
+    <rich_text>
+</rich_text>
+    <rich_text scale="h1">2. Academic Course </rich_text>
+    <rich_text scale="h1" foreground="#c0c01c1c2828">Edits</rich_text>
+    <rich_text scale="h1"> (mehdi requested A4):</rich_text>
+    <rich_text>
+   after talking to mehdi qasemi in tehran there are a list of things that are supposed to be done for the school_pannel these changes include many features inside the academic-course module , heres the list of changes :
+• 	</rich_text>
+    <rich_text foreground="#eded33333b3b">module_active</rich_text>
+    <rich_text> field inside the form 
+• change the type of course in the fields from what is now to the currect one (نوع دوره =&gt; دسته بندی دوره) this can be done with the help of </rich_text>
+    <rich_text foreground="#eded33333b3b">pannel config</rich_text>
+    <rich_text>
+• </rich_text>
+    <rich_text foreground="#eded33333b3b">executed type is going to be 4 options</rich_text>
+    <rich_text> now and based on behrads request the </rich_text>
+    <rich_text foreground="#2626a2a26969">border</rich_text>
+    <rich_text> of the selected item is supposed to be more obvious.
+• add a description field inside the main form 
+• in the home list fix the tools and required features
+• remove the title of the steps 
+• add school_field and school_grade to the main form 
+• add a filter box to the home list including this iteams{</rich_text>
+    <rich_text foreground="#eded33333b3b">from date to date, search , status, دسته بندی </rich_text>
+    <rich_text>}
+• add link in tools to connect the course to the educational
+• show the number of participant
+• 
+   
+   	
+</rich_text>
+  </node>
+</cherrytree>

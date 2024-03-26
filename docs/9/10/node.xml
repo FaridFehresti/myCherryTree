@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="10" master_id="0" name="users-form" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711456212" ts_lastsave="1711456251">
+    <rich_text>created a component inside users list that has the same code as profile form , this component is going to select a form from register fform and pass the form id to inside the users object , then there are some modification iniside it that are going to be made after that , and those are deleting some of the fields that are not required!</rich_text>
+  </node>
+</cherrytree>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="6" master_id="0" name="annuncement models" prog_lang="python3" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1710598976" ts_lastsave="1710598977">
+    <rich_text>python
+class Announcement(models.Model):
+    class Types(models.TextChoices):
+        MANAGER = "Manager"
+        STAFF = "Staff"
+        STUDENT = "Student"
+        PARENT = "Parent"
+        TEACHER = "Teacher"
+        ADVISER = "Adviser"
+        
+
+    class AnnouncementType(models.IntegerChoices):
+        REGULAR = 1
+        BANNER = 2
+        POPUP = 3
+
+    class OwnerType(models.IntegerChoices):
+        PANEL = 1
+        SCHOOL = 2 
+    school = models.ForeignKey('management.School', on_delete=models.CASCADE , null=True , blank=True)
+    subject = models.TextField(_('موضوع'))
+    text = models.TextField(_("متن"))
+    date_time = models.DateTimeField(_("تاریخ ایجاد"), auto_now_add=True)
+    banner = models.TextField(_("عکس شاخص"), null=True)
+    school_grade = models.ForeignKey("management.SchoolGrade", on_delete=models.SET_NULL, null=True, blank=True)
+    is_public = models.BooleanField(default=False)
+    link = models.TextField(_("لینک") , null=True, blank=True)
+    types = ArrayField(
+        models.CharField(max_length=50, choices=Types.choices),
+        default=list , null = True , blank = True
+    )
+    
+    display_type = models.SmallIntegerField(choices=AnnouncementType.choices, default=AnnouncementType.REGULAR)
+    owner_type = models.SmallIntegerField(choices=OwnerType.choices, default=OwnerType.SCHOOL)
+    is_active = models.BooleanField(default=True)
+    expire_date = models.DateField(_("تاریخ انقضا") , null  =True , blank = True)</rich_text>
+  </node>
+</cherrytree>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="9" master_id="0" name="users-list" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1711456201" ts_lastsave="1711456372">
+    <rich_text>users has add user btn that uses old  component and code, but now it is supposed to have new fields since we have created the formManager,  </rich_text>
+  </node>
+</cherrytree>
